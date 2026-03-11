@@ -1,3 +1,4 @@
+/* Whole page */
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body{
     color:#111827;
 }
 
+/* Header */ 
 header{
     border-bottom: 1px solid #e5e7eb;
     background: white;
@@ -46,5 +48,55 @@ header{
 
 .nav li a{
     color: rgb(91, 88, 84);
+}
+
+/* Hero Section */
+
+.hero {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.hero small {
+    color: #2563eb;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.hero p {
+    color: rgb(91, 88, 84);
+    max-width: 520px;
+    line-height: 1.6;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 9px 0px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.primary {
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+}
+
+.secondary {
+    border:1px solid #2563eb;
+    color: #2563eb;
+    padding: 10px 20px;
 }
 
